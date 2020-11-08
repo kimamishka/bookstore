@@ -763,9 +763,9 @@ h3 {
   text-align: center;
   cursor: pointer;
 }
-#newarriv,
-#used,
-#special {
+.newarriv,
+.used,
+.special {
   display: none;
 }
 .two__bs,
@@ -830,11 +830,19 @@ h3 {
   font-weight: 300;
   line-height: 28px;
   text-align: center;
+  cursor: pointer;
 }
-.numberpage .page {
+.numberpage .active-page {
   opacity: 0.8;
   border-right: 1px solid #d8dce0;
   border-bottom: 4px solid #81bd66;
+}
+#bestsel_1,
+#bestsel_2,
+#bestsel_4,
+#bestsel_5,
+#bestsel_6 {
+  display: none;
 }
 @media (max-width: 870px) {
   .categories h1 {
