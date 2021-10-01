@@ -2,11 +2,12 @@
 $(document).ready(function () {
   $(".header-burger").click(function (event) {
     $(".header-burger, .header-menu").toggleClass("active");
-    $(".header-menu").css("top", "0");
+    //$(".header-menu").css("top", "0");
   });
 });
 $(".main__item").click(function (event) {
-  $(".header-menu").css("top", "-100%");
+  // $(".header-menu").css("top", "-100%");
+  $(".header-burger, .header-menu").removeClass("active");
 });
 
 
